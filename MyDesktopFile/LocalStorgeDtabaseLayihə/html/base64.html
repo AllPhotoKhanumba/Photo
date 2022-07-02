@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/base64.css" />
+  </head>
+  <body>
+    <div class="inner-container">
+      
+
+      <h2>BASE-64 Şifrələmə</h2>
+
+      <div class="input-div">
+        <input placeholder="Normal mətni buraya daxil edin" id="input_enc_div" />
+      </div>
+
+      <div class = "output-div">
+        <p class="text">Cipher metn</p>
+        <div class="output-box">
+          <p id="output_enc_div"></p>
+        </div>
+
+
+      </div>
+      <button class = "button" onclick="encode()">Şifrələ</button>
+      <!-- <input class = "button" type="button" value="Şifrələ" onclick="encode()" /> -->
+    </div>
+    <div class="inner-container">
+      
+
+      <h2>BASE-64 Deşifrələmə</h2>
+
+      <div class="input-div">
+        <input placeholder="Şifrəli mətni buraya daxil edin" id="input_dec_div" />
+      </div>
+
+      <div class = "output-div">
+        <p class="text">Cipher metn</p>
+        <div class="output-box">
+          <p id="output_dec_div"></p>
+        </div>
+
+
+      </div>
+      <button class = "button" onclick="decode()">Deşifrələ</button>
+    </div>
+    <script src="base64.js"></script>
+  </body>
+</html>

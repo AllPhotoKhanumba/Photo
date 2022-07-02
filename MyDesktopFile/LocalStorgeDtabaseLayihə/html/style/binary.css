@@ -1,0 +1,52 @@
+textarea {
+  width: 80%;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 2px;
+  font-family: monospace;
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+}
+.buttons {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  color: #fff;
+  font-size: 1.3em;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  width: 150px;
+}
+button::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-width: 5px 75px;
+  border-style: solid;
+  left: 0;
+}
+#encode-button {
+  background: #0084ff;
+}
+#encode-button::after {
+  border-color: transparent transparent #0084ff transparent;
+  top: -10px;
+}
+#decode-button {
+  background: #e4325b;
+}
+#decode-button::after {
+  border-color: #e4325b transparent transparent transparent;
+  bottom: -10px;
+}
+.textarea1{
+  margin-top : 30vh;
+}

@@ -1,0 +1,10 @@
+Salam
+
+Birinci növbədə məllim Login Register yaratmışam Local Storage vasitesi ilə database qurmuşam.
+
+SignUp.Html faylına daxil olun Qeydiyyat edin.Orda passvord inputuna pattern vermişem 8 simvoldan az olmamalıdır.
+yəni Parol 8 simvoldan az olmamlıdır. Daha sonra bütün inputları düzgün doldurduqdan sonra klik eliyende
+sizə yuxaridan mesaj verecekki login ekranina Yönləndiriləcəksiniz. daha sonra registere daxil etdiyiniz mailnen parolu ora daxil edin.
+Orda sehv yazsaniz size mesaj verecekki məlumatlari düzgün daxil edin. Daha sonra başqa səhifəyə yönləndiriləcksiniz əgər məıumlatlar düzgün daxil etdinizsə.
+
+

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Raleway-Medium;
+    src: url('raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Semibold;
+    src: url('raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Regular;
+    src: url('raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway-Bold;
+    src: url('raleway/Raleway-Bold.ttf');
+}
+
+.forma {
+    border-radius: 25px;
+    width: 560px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    height: 520px;
+    top: 8%;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 403px;
+    }
+}
+
+.main {
+    background-color: #ebebeb;
+    height: 720px;
+}
+
+.qeyd {
+    font-family: Raleway-Medium;
+    font-size: 30px;
+    color: #555555;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 9%;
+    font-weight: 400;
+    padding-left: 10%;
+    padding-bottom: 7%;
+}
+
+.ema {
+    width: 80%;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 50px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 5%;
+    border: 1px solid rgb(202, 197, 197);
+    padding-left: 4%;
+    font-size: 21px;
+    color: gray;
+    border-radius: 5px;
+}
+
+.pwda:hover {
+    border: 1px solid rgb(109, 202, 146);
+}
+
+.ema:hover {
+    border: 1px solid rgb(109, 202, 146);
+}
+
+.pwda {
+    width: 80%;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 50px;
+    outline: none;
+    padding-left: 10px;
+    border: 1px solid rgb(202, 197, 197);
+    padding-left: 4%;
+    font-size: 21px;
+    color: gray;
+    border-radius: 5px;
+}
+
+.bitn {
+    font-family: Raleway-Bold;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333333;
+    outline: none;
+    border: 0;
+    width: 25%;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 9%;
+    margin-top: 6%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bitn:hover {
+    background-color: green;
+    ;
+}
+
+label {
+    padding-left: 9%;
+    font-size: 18px;
+    color: #555555;
+    font-family: Raleway-Semibold;
+}
+
+p {
+    font-size: 16px;
+    color: rgb(73, 75, 75);
+    padding-top: 40px;
+    padding-left: 9%;
+    font-family: Raleway-Semibold;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+    color: rgb(125, 138, 122);
+}
+
+a:hover {
+    color: rgb(120, 196, 120);
+}

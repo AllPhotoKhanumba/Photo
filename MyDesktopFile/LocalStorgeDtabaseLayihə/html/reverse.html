@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/reverse.css"/>
+</head>
+<body>
+    <div class="inner-container">
+      
+
+        <h2>Reverse Şifrələmə</h2>
+  
+        <div class="input-div">
+          <input placeholder="Normal mətni buraya daxil edin" id="input_rev" />
+        </div>
+  
+        <div class = "output-div">
+          <p class="text">Reverse metn</p>
+          <div class="output-box">
+            <p id="output_rev"></p>
+          </div>
+  
+  
+        </div>
+        <button class = "button" onclick="rev()">Şifrələ</button>
+      </div>
+      <div class="inner-container">
+      
+
+        <h2>Reverse Deşifrələmə</h2>
+  
+        <div class="input-div">
+          <input placeholder="Reverse mətni buraya daxil edin" id="input_unrev" />
+        </div>
+  
+        <div class = "output-div">
+          <p class="text">Unreverse metn</p>
+          <div class="output-box">
+            <p id="output_unrev"></p>
+          </div>
+  
+  
+        </div>
+        <button class = "button" onclick="unrev()">Şifrələ</button>
+        <!-- <input class = "button" type="button" value="Şifrələ" onclick="encode()" /> -->
+      </div>
+
+
+    <script src="reverse.js"></script>
+</body>
+</html>
